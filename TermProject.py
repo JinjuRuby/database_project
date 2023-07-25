@@ -83,3 +83,4 @@ for i in range(0, len(dep_list)):
 
 # 데이터베이스에 대한 변경 사항을 영구적으로 저장 (insert, update, delete 등을 수행한 후 영구적 저장하기 위해)
 conn.commit()
+conn.close()
